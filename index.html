@@ -16,7 +16,7 @@
 
         //create rng() generate 1 to 3 which corelate to rock, paper or scissors
         //Create getComputerChoice() depending on rng() choose a side to play
-        //Create playerChoice() function so that the player can choose between "rock","paper", or "scissors"
+        //Create playerChoice variable so that the player can choose between "rock","paper", or "scissors" using the console
         //Create game() function to compare getComputerChoice() versus playerChoice()
         function rng() {
         return Math.floor(Math.random() * 3) + 1;
@@ -35,8 +35,9 @@
                   choice = "Scissors"
                   break;
             } return choice;
-            }
+        }
 
+        let playerChoice;
             
         
     </script>
