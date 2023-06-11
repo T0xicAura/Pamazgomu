@@ -20,9 +20,25 @@
         //Create game() function to compare getComputerChoice() versus playerChoice()
         function rng() {
         return Math.floor(Math.random() * 3) + 1;
-        
         }
-           
+        
+        function getComputerChoice() {
+            let choice;
+             switch(rng()) {
+                case 1:
+                  choice = "Rock"
+                  break;
+                case 2: 
+                  choice = "Paper"
+                  break;
+                case 3: 
+                  choice = "Scissors"
+                  break;
+            } return choice;
+            }
+
+            
+        
     </script>
 </body>
 </html>
